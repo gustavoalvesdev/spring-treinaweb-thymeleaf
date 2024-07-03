@@ -34,7 +34,7 @@
       <tbody>
         <tr th:each="client : ${clients}">
           <th scope="row" th:text="${client.id}">1</th>
-          <td th:text="${client.name}">Cleyson Lima</td>
+          <td th:utext="${client.name}">Cleyson Lima</td>
           <td th:text="${client.email}">cleyson@mail.com</td>
           <td th:text="${client.phone}">(11) 99999-9999</td>
           <td>
